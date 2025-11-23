@@ -20,8 +20,7 @@ Field.contact.service_address: Stores full property address where service is nee
 Field.contact.service_requested: Stores the classified service type based on caller description.
 
 [ClassificationRules]
-- Always determine the closest matching service category using symptom-based interpretation.
-- Never invent new service categories not present in the industry mcp.
+- Always determine the closest matching service category using  symptom-based interpretation through the knowledge base.
 - If unsure, classify as “General Diagnostic”.
 - Classification must be performed before offering appointment times.
 - After classification, update contact.service_requested immediately.
