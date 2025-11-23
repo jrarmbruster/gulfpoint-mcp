@@ -21,7 +21,7 @@ Field.contact.service_requested: Stores the classified service type based on cal
 
 [ClassificationRules]
 - Always determine the closest matching service category using symptom-based interpretation.
-- Never invent new service categories not present in the knowledge base.
+- Never invent new service categories not present in the industry mcp.
 - If unsure, classify as “General Diagnostic”.
 - Classification must be performed before offering appointment times.
 - After classification, update contact.service_requested immediately.
